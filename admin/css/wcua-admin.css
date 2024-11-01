@@ -1,0 +1,282 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+div#wcua_table_list_length select {
+    width: 50px;
+    margin-bottom: 32px;
+}
+.wcua_table{
+    padding: 50px 30px;
+    background-color: #fff;
+}
+
+table#wcua_table_list th, table#wcua_table_list td ,table#wcua_table_list {
+    text-align: left;
+    border: 1px solid;
+    border-collapse: collapse;
+    background: #fff;
+}
+table#wcua_table_list th, table#wcua_table_list td {
+    padding: 10px;
+    font-size: 18px;
+}
+
+div#wcua_table_list_paginate {
+    margin-top: 27px;
+}
+a.wcua_mail.btn {
+    background-color: #8bc34a;
+    color: #fff !important;
+    text-decoration: none;
+    padding: 5px 22px;
+    display: inherit;
+    font-size: 16px;
+}
+form#wcua_mail_send_form h4 {
+    font-size: 24px;
+    margin-top: 0;
+}
+form#wcua_mail_send_form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inherit;
+}
+table#wcua_table_list td a {
+    color: #8bc34a;
+}
+.wcua_popup {
+    position: fixed;
+    display: none;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+}
+.wcua_popup .wcua_popup_inner {
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+    background-color: #ffff;
+    padding: 30px;
+    margin-top: 100px;
+}
+.wcua_popup_ovly.close_popup {position: fixed;background-color: rgb(0 0 0 / 40%);display: inline-block;left: 0;right: 0;top: 0;width: 100%;height: 100%;}
+
+.wcua_popup .wcua_popup_inner input#wcua_mail_subject {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.wcua_popup .wcua_popup_inner a.close_btn.close_popup {
+    position: absolute;
+    right: -18px;
+    top: -21px;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.wcua_product_image,.wcua_create_coupon_btn {
+    background-color: #8bc34a;
+    color: #fff !important;
+    padding: 8px 22px;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    position: relative;
+}
+.wcua_product_image:before {
+    content: "Copy text";
+    position: absolute;
+    background-color: black;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    position: absolute;
+    top: 28px;
+    z-index: 11;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+.wcua_product_image:hover:before{
+    display:block;
+}
+.wcua_popup  input[type="submit"] {
+    background-color: #8bc34a;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 23px;
+    border: 0px;
+    cursor: pointer;
+}
+.wcua_popup  .submit_btn {
+    text-align: right;
+}
+.wcua-header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 2px solid #d5d1d1;
+    align-items: center;
+}
+.wcua-header h4 {
+    font-size: 32px;
+    margin: 0px;
+    color: #8bc34a;
+}
+.wcua-header h2 {
+    font-size: 32px;
+    margin: 0px;
+    color: #8bc34a;
+}
+.wcua-header h2 span {
+    color: #000;
+}
+.wcua-footer {
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    text-align: center;
+    background-color: #ffffff;
+    z-index: 1;
+}
+.wcua-header a {
+    display: inline-block;
+    background-color: #8bc34a;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 19px;
+    border-radius: 5px;
+}
+.wcua-footer p {
+    color: #1d2327;
+    font-size: 18px;
+}
+.wcua-footer p span {
+    color: #000;
+    font-weight: 700;
+}
+.wcua-footer p span.wp {
+    color: #8bc34a;
+    font-weight: 700;
+}
+
+.create_coupon_inner {
+    display: flex;
+    align-items: center;
+}
+.create_coupon_inner input {
+    width: 100%;
+}
+.create_coupon_inner div {
+    width: 100%;
+    margin: 0px 16px 10px 0px;
+}
+.create_coupon_inner input[type="date"]::-webkit-inner-spin-button,
+.create_coupon_inner input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    width: 100%;
+    opacity:0
+}
+label.wcua_if_coupon {
+    background-color: #00bcd4;
+    padding: 10px;
+    color: #fff;
+}
+
+
+/* page 2 */
+form#wcua_mail_send_product {
+    background: #fff;
+    padding: 30px;
+}
+form#wcua_mail_send_product .wcua_select-2 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+form#wcua_mail_send_product  input {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+form#wcua_mail_send_product  select{
+   display: inline-block;
+    width: 100%;  
+}
+
+form#wcua_mail_send_product input[type="submit"] {
+    background-color: #8bc34a;
+    color: #fff !important;
+    text-decoration: none;
+    padding: 5px 22px;
+    display: inline-block;
+    font-size: 16px;
+    border: 0px;
+    width: auto;
+    margin-top: 31px;
+    cursor: pointer;
+}
+form#wcua_mail_send_product select#wcua_product_id {
+    margin-bottom: 20px;
+}
+
+form#wcua_mail_send_product label {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.wcua_select-2 span.select2.select2-container {
+    width: 100% !important;
+}
+.wcua_select-2 span.select2.select2-container li.select2-selection__choice {
+    background-color: #8bc34a;
+    color: #fff;
+    font-size: 14px;
+}
+.wcua_select-2 button.select2-selection__choice__remove {
+    color:  #fff !important;
+    font-size: 14px !important;
+    transform: translateY(-2px);
+}
+.wcua_select-2 span.select2.select2-container span.select2-selection.select2-selection--multiple {
+    padding-bottom: 0px !important;
+}
+.wcua_select-2 button.select2-selection__choice__remove span {
+    font-size: 14px !important;
+}
+.wcua_select-2 textarea.select2-search__field {
+    margin: 8px 8px  4px !important;
+}
+#wcua_mail_send_product img#loading-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0000001c;
+    padding: 63%;
+    z-index: 111;
+}
+h5.wcua_mail_send_product_msg {
+    font-size: 20px;
+    background-color: #8bc34a;
+    color: #fff;
+    padding: 10px;
+    display: none;
+}
